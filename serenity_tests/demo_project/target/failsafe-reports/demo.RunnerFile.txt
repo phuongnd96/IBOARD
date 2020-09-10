@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: demo.RunnerFile
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 15.819 s <<< FAILURE! - in demo.RunnerFile
+??t l?nh th?nh c?ng trong tr??ng h?p mode l? Normal Order v? c? X?c nh?n(??t l?nh)  Time elapsed: 14.133 s  <<< ERROR!
+net.serenitybdd.core.exceptions.SerenityManagedException: 
+
+Expected: a string containing "/login"
+     but: was "https://iboard.ssi.com.vn/bang-gia/vn30"
+

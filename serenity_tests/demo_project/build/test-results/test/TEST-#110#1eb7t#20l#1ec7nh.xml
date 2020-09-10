@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Đặt lệnh" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-09T07:12:06" hostname="Phuongs-Mac.local" time="18.787">
+  <properties/>
+  <testcase name="Đặt lệnh thành công trong trường hợp mode là Normal Order và có Xác nhận" classname="Đặt lệnh" time="18.787"/>
+  <system-out><![CDATA[#BID>td.priceCell
+]]></system-out>
+  <system-err><![CDATA[thg 9 09, 2020 2:12:07 CH org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 48980
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1599635529.242][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+thg 9 09, 2020 2:12:09 CH org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
