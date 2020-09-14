@@ -67,4 +67,23 @@ public class dat_lenh_steps_defs {
     public void clickĐểSau() {
         user.clickLater();
     }
+
+    @Then("^thông báo đặt lệnh thành công được hiển thị$")
+    public void thôngBáoĐặtLệnhThànhCôngĐượcHiểnThị() {
+    }
+
+    @And("^lệnh hiển thị trong danh sách lệnh$")
+    public void lệnhHiểnThịTrongDanhSáchLệnh() {
+    }
+
+    @When("^nhập biên trượt \"([^\"]*)\"$")
+    public void nhậpBiênTrượt(String priceValueBorder) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        user.inputPriceValueBorder(priceValueBorder);
+    }
+
+    @And("^click Lưu$")
+    public void clickLưu() {
+        user.clickSavePinCodeBtn();
+    }
 }

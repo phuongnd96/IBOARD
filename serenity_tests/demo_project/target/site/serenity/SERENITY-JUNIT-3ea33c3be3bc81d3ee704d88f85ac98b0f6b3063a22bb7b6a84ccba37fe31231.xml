@@ -1,1 +1,134 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Đặt lệnh" skipped="0" tests="1" time="18.74" timestamp="2020-09-09 02:12:06"><testcase name="Đặt lệnh thành công trong trường hợp mode là Normal Order và có Xác nhận"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="6" failures="0" name="Đặt lệnh" skipped="0" tests="6" time="50.09" timestamp="2020-09-14 02:57:20"><testcase name="Đặt lệnh thành công trong trường hợp mode là Normal Order và có Xác nhận"><error type="java.lang.reflect.InvocationTargetException"/><system-err>null
+com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+demo.pages.IBoard_upcom_page.clickLater(IBoard_upcom_page.java:112)
+demo.steps.dat_lenh.userSteps.clickLater(userSteps.java:34)
+demo.steps.dat_lenh_steps_defs.clickĐểSau(dat_lenh_steps_defs.java:68)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase><testcase name="Đặt lệnh thành công trong trường hợp mode là Normal Order và không Xác nhận"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64172}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5b034cc595ca2167d90eba2e479feb2c&#10;*** Element info: {Using=css selector, value=#BID&gt;td.priceCell}&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64172}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b034cc595ca2167d90eba2e479feb2c
+*** Element info: {Using=css selector, value=#BID&gt;td.priceCell}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64172}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b034cc595ca2167d90eba2e479feb2c
+*** Element info: {Using=css selector, value=#BID&gt;td.priceCell}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: unknown
+demo.pages.IBoard_upcom_page.doubleClickOnTickerSymbol(IBoard_upcom_page.java:89)
+demo.steps.dat_lenh.userSteps.doubleClickOnTickerSymbol(userSteps.java:15)
+demo.steps.dat_lenh_steps_defs.doubleClickVàoGíaBấtKìCủaMãChứngKhoá(dat_lenh_steps_defs.java:17)
+✽.double click vào gía bất kì của mã chứng khoá "BID"(src/test/resources/features/dat_lenh/dat_lenh.feature:23)
+</system-err></testcase><testcase name="Đặt lệnh thành công trong trường hợp mode là Quick Order và có Xác nhận"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2a8324e993f3e24df9568a72ee547c3f&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2a8324e993f3e24df9568a72ee547c3f
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2a8324e993f3e24df9568a72ee547c3f
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: unknown
+demo.pages.IBoard_upcom_page.shouldBeNavigatedToLoginPage(IBoard_upcom_page.java:95)
+demo.steps.dat_lenh.userSteps.shouldBeNavigatedToLoginPage(userSteps.java:19)
+demo.steps.dat_lenh_steps_defs.ngườiDùngĐượcChuyểnHướngĐếnTrangLogin(dat_lenh_steps_defs.java:22)
+✽.người dùng được chuyển hướng đến trang Login(src/test/resources/features/dat_lenh/dat_lenh.feature:39)
+</system-err></testcase><testcase name="Đặt lệnh thành công trong trường hợp mode là Quick Order và không Xác nhận"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 7d7ee8af192b23f8d6e8f37498c32685&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7d7ee8af192b23f8d6e8f37498c32685
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7d7ee8af192b23f8d6e8f37498c32685
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: unknown
+demo.pages.IBoard_upcom_page.shouldBeNavigatedToLoginPage(IBoard_upcom_page.java:95)
+demo.steps.dat_lenh.userSteps.shouldBeNavigatedToLoginPage(userSteps.java:19)
+demo.steps.dat_lenh_steps_defs.ngườiDùngĐượcChuyểnHướngĐếnTrangLogin(dat_lenh_steps_defs.java:22)
+✽.người dùng được chuyển hướng đến trang Login(src/test/resources/features/dat_lenh/dat_lenh.feature:56)
+</system-err></testcase><testcase name="Đặt lệnh thành công trong trường hợp đã lưu PIN với mode là Quick Order và không Xác nhận"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: e59231a88d53e18344d9a92f49c13ce2&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e59231a88d53e18344d9a92f49c13ce2
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e59231a88d53e18344d9a92f49c13ce2
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: unknown
+demo.pages.IBoard_upcom_page.shouldBeNavigatedToLoginPage(IBoard_upcom_page.java:95)
+demo.steps.dat_lenh.userSteps.shouldBeNavigatedToLoginPage(userSteps.java:19)
+demo.steps.dat_lenh_steps_defs.ngườiDùngĐượcChuyểnHướngĐếnTrangLogin(dat_lenh_steps_defs.java:22)
+✽.người dùng được chuyển hướng đến trang Login(src/test/resources/features/dat_lenh/dat_lenh.feature:72)
+</system-err></testcase><testcase name="Đặt lệnh thành công trong trường hợp đã lưu PIN với mode là Normal Order và không Xác nhận"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ece61c993c76207cbe246857e12f930e&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ece61c993c76207cbe246857e12f930e
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: unknown</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:64285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ece61c993c76207cbe246857e12f930e
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: unknown
+demo.pages.IBoard_upcom_page.shouldBeNavigatedToLoginPage(IBoard_upcom_page.java:95)
+demo.steps.dat_lenh.userSteps.shouldBeNavigatedToLoginPage(userSteps.java:19)
+demo.steps.dat_lenh_steps_defs.ngườiDùngĐượcChuyểnHướngĐếnTrangLogin(dat_lenh_steps_defs.java:22)
+✽.người dùng được chuyển hướng đến trang Login(src/test/resources/features/dat_lenh/dat_lenh.feature:89)
+</system-err></testcase></testsuite>

@@ -26,15 +26,14 @@
 <!--[if IE 7]>
 <!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
 
-<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
-<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
 
 <!-- JQuery -->
-<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
-<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
 <script src="chartist/dist/chartist.min.js"></script>
-<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
-<!-- Required Stylesheets -->
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
 <link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
 
 <!-- Required Javascript -->
@@ -138,7 +137,7 @@
             <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-09-2020 14:12</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-09-2020 14:57</span>
     <br style="clear:left"/>
 </div>
 
@@ -170,6 +169,12 @@
                         <td valign="top" align="right">
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e8f1ccd0347bea067535075b27ca17ed502f7eb88c9f2995893cedf98a6f8f89.html">Invocation Target Exception
+                                    (error)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
                                     <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="1a0ff5adca406e5fdd9bb614f13adcae023acb52ad84c1c58b505317a32be495.html">Dl01
                                     (tag)</a>
                                 </span>
@@ -182,9 +187,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Đặt lệnh th&agrave;nh c&ocirc;ng trong trường hợp mode l&agrave; Normal Order v&agrave; c&oacute; X&aacute;c nhận
+                                <span class="error-color">Đặt lệnh th&agrave;nh c&ocirc;ng trong trường hợp mode l&agrave; Normal Order v&agrave; c&oacute; X&aacute;c nhận
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -201,18 +206,65 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Invocation target exception</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.reflect.InvocationTargetException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)<br />demo.pages.IBoard_upcom_page.clickLater(IBoard_upcom_page.java:112)<br />demo.steps.dat_lenh.userSteps.clickLater(userSteps.java:34)<br />demo.steps.dat_lenh_steps_defs.clickĐểSau(dat_lenh_steps_defs.java:68)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: java.lang.AssertionError
+                    </h4>
+                    <div>
+                            <pre>null</pre>
+                        <pre>cucumber.runner.EventBus.send(EventBus.java :28)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="8855b965373a25d7cb6e91fc13fdbe3f54d88978ecebce451d701ce7cbaf403f.png" title=" Given Kh&aacute;ch h&agrave;ng truy cập iboard web" width="2880"/>
                 <img src="8855b965373a25d7cb6e91fc13fdbe3f54d88978ecebce451d701ce7cbaf403f.png" title=" Is on i board page" width="2880"/>
                 <img src="8855b965373a25d7cb6e91fc13fdbe3f54d88978ecebce451d701ce7cbaf403f.png" title=" Given Kh&aacute;ch h&agrave;ng truy cập iboard web (completed)" width="2880"/>
-                <img src="6dae7a3752bf4c319f3cac457bf754eb93d8f09addd2be20ec6fc84a6d27d162.png" title=" Given double click v&agrave;o g&iacute;a bất k&igrave; của m&atilde; chứng kho&aacute; &quot;BID&quot;" width="2880"/>
-                <img src="6dae7a3752bf4c319f3cac457bf754eb93d8f09addd2be20ec6fc84a6d27d162.png" title=" Double click on ticker symbol: BID" width="2880"/>
-                <img src="6dae7a3752bf4c319f3cac457bf754eb93d8f09addd2be20ec6fc84a6d27d162.png" title=" Given double click v&agrave;o g&iacute;a bất k&igrave; của m&atilde; chứng kho&aacute; &quot;BID&quot; (completed)" width="2880"/>
+                <img src="8eaea3e99f53cb7016a4b35a9cefecaefb262bdf5cce8a12976d62d43b8811c2.png" title=" Given double click v&agrave;o g&iacute;a bất k&igrave; của m&atilde; chứng kho&aacute; &quot;BID&quot;" width="2880"/>
+                <img src="8eaea3e99f53cb7016a4b35a9cefecaefb262bdf5cce8a12976d62d43b8811c2.png" title=" Double click on ticker symbol: BID" width="2880"/>
+                <img src="8eaea3e99f53cb7016a4b35a9cefecaefb262bdf5cce8a12976d62d43b8811c2.png" title=" Given double click v&agrave;o g&iacute;a bất k&igrave; của m&atilde; chứng kho&aacute; &quot;BID&quot; (completed)" width="2880"/>
                 <img src="8eaea3e99f53cb7016a4b35a9cefecaefb262bdf5cce8a12976d62d43b8811c2.png" title=" Then người d&ugrave;ng được chuyển hướng đến trang Login" width="2880"/>
-                <img src="30ccc6b59ad11fd4b9066c8b2fbee51489d8f31126004d5c543d68f602a8eac8.png" title=" When nhập t&ecirc;n đăng nhập &quot;username&quot;" width="2880"/>
-                <img src="aede7a2e85c2bb34e15489ae47cdf3f7fe49ef0b51795dadd5e68ad49ac68598.png" title=" And nhập mật khẩu &quot;password&quot;" width="2880"/>
-                <img src="a3ba823e07998ca90293f48af3ecf9390c1fd608fe0329b2d1c2551c52c6f0da.png" title=" And click Đăng nhập: <span class='success-color'>SUCCESS</span>" width="2880"/>
+                <img src="77f944da60f35183b47a17c6635be7e5c8411cf5375707c62233050d25043566.png" title=" When nhập t&ecirc;n đăng nhập &quot;004169&quot;" width="2880"/>
+                <img src="ef96c6fad18a2ba412299a5c01c9ee89ce48515bd359138b23c8d54f765853a1.png" title=" And nhập mật khẩu &quot;123456789Aa@&quot;" width="2880"/>
+                <img src="7c0b8fa55e521640ad52da0b79d7654cf0f8497532eafe5c90c8b8cad36379dd.png" title=" And click Đăng nhập" width="2880"/>
+                <img src="7c0b8fa55e521640ad52da0b79d7654cf0f8497532eafe5c90c8b8cad36379dd.png" title=" And click Để sau: <span class='error-color'>ERROR</span>" width="2880"/>
             </div>
         </div>
 
@@ -221,7 +273,7 @@
 </div>
 <div id="beforefooter"></div>
 <div id="bottomfooter">
-    <span class="version">Serenity BDD version 2.0.81</span>
+    <span class="version">Serenity BDD version 2.0.64</span>
 </div>
 </body>
 </html>

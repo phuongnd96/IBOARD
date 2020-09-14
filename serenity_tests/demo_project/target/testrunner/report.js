@@ -1,80 +1,75 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/dat_lenh/dat_lenh.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/api_call/api_call.feature");
 formatter.feature({
-  "name": "Đặt lệnh",
+  "name": "Call some apis",
   "description": "",
   "keyword": "Feature"
 });
-formatter.background({
-  "name": "Khách hàng truy cập thành công iboard web",
+formatter.scenario({
+  "name": "GET method",
   "description": "",
-  "keyword": "Background"
+  "keyword": "Scenario"
 });
 formatter.step({
-  "name": "Khách hàng truy cập iboard web",
+  "name": "Call a GET api to \"http://192.168.99.139:3003/product\" with query strings page\u003d\"1\" and limit\u003d\"21\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "tạo_danh_mục_steps_defs.kháchHàngTruyCậpIboardWeb()"
+  "location": "api_call_steps_defs.callAGETApiToWithQueryStringsPageAndLimit(String,String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "status code should be \"200\"",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "api_call_steps_defs.statusCodeShouldBe(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "number of records should equal to \"21\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "api_call_steps_defs.numberOfRecordsShouldEqualTo(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Đặt lệnh thành công trong trường hợp mode là Normal Order và có Xác nhận",
+  "name": "POST method",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@DL01"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
-  "name": "double click vào gía bất kì của mã chứng khoá \"BID\"",
+  "name": "Call a POST request to \"http://192.168.99.139:3003/payment\" with request body name\u003d\"test\" email\u003d\"\"  and phone\u003d\"\" and address\u003d\"\" and products\u003d\"\"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "dat_lenh_steps_defs.doubleClickVàoGíaBấtKìCủaMãChứngKhoá(String)"
+  "location": "api_call_steps_defs.callAPOSTRequestToWithRequestBodyNameEmailAndPhoneAndAddressAndProducts(String,String,String,String,String,String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "người dùng được chuyển hướng đến trang Login",
+  "name": "status code should be \"400\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "dat_lenh_steps_defs.ngườiDùngĐượcChuyểnHướngĐếnTrangLogin()"
+  "location": "api_call_steps_defs.statusCodeShouldBe(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "nhập tên đăng nhập \"username\"",
-  "keyword": "When "
+  "name": "result should tell us \"phone is required\"",
+  "keyword": "Then "
 });
 formatter.match({
-  "location": "dat_lenh_steps_defs.nhậpTênĐăngNhập(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "nhập mật khẩu \"password\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "dat_lenh_steps_defs.nhậpMậtKhẩu(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "click Đăng nhập",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "dat_lenh_steps_defs.clickĐăngNhập()"
+  "location": "api_call_steps_defs.resultShouldTellUs(String)"
 });
 formatter.result({
   "status": "passed"
