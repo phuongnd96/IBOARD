@@ -1,8 +1,8 @@
-/Users/maconline/Desktop/IBOARD/serenity_tests/demo_project/src/test/java/demo/steps/serenity/t?o_danh_m?c/userSteps.java
-/Users/maconline/Desktop/IBOARD/serenity_tests/demo_project/src/test/java/demo/steps/dat_lenh/userSteps.java
-/Users/maconline/Desktop/IBOARD/serenity_tests/demo_project/src/test/java/demo/locators/Iboard_upcom_locators.java
-/Users/maconline/Desktop/IBOARD/serenity_tests/demo_project/src/test/java/demo/pages/IBoard_upcom_page.java
-/Users/maconline/Desktop/IBOARD/serenity_tests/demo_project/src/test/java/demo/steps/api_call_step_defs.java
-/Users/maconline/Desktop/IBOARD/serenity_tests/demo_project/src/test/java/demo/steps/dat_lenh_steps_defs.java
-/Users/maconline/Desktop/IBOARD/serenity_tests/demo_project/src/test/java/demo/steps/t?o_danh_m?c_steps_defs.java
-/Users/maconline/Desktop/IBOARD/serenity_tests/demo_project/src/test/java/demo/RunnerFile.java
+/Users/maconline/Desktop/IBOARD_GITHUB/serenity_tests/demo_project/src/test/java/demo/RunnerFile.java
+/Users/maconline/Desktop/IBOARD_GITHUB/serenity_tests/demo_project/src/test/java/demo/locators/Iboard_upcom_locators.java
+/Users/maconline/Desktop/IBOARD_GITHUB/serenity_tests/demo_project/src/test/java/demo/steps/t?o_danh_m?c_steps_defs.java
+/Users/maconline/Desktop/IBOARD_GITHUB/serenity_tests/demo_project/src/test/java/demo/steps/serenity/t?o_danh_m?c/userSteps.java
+/Users/maconline/Desktop/IBOARD_GITHUB/serenity_tests/demo_project/src/test/java/demo/steps/dat_lenh_steps_defs.java
+/Users/maconline/Desktop/IBOARD_GITHUB/serenity_tests/demo_project/src/test/java/demo/steps/dat_lenh/userSteps.java
+/Users/maconline/Desktop/IBOARD_GITHUB/serenity_tests/demo_project/src/test/java/demo/pages/IBoard_upcom_page.java
+/Users/maconline/Desktop/IBOARD_GITHUB/serenity_tests/demo_project/src/test/java/demo/steps/api_call_step_defs.java

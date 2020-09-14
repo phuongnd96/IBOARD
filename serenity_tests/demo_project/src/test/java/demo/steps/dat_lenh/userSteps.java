@@ -50,8 +50,14 @@ public class userSteps {
     }
 
     public void shouldOrderedSuccessfully() {
-        iboard_upcom_page.shouldOrderedSuccessfully();
+        assertThat(iboard_upcom_page.getNotification(),containsString("Lệnh của bạn đã được gửi đi"));
     }
 
+    public void inputPriceValueBorder(String priceValueBorder){
+        iboard_upcom_page.inputPriceValueBorder(priceValueBorder);
+    }
 
+    public void clickSavePinCodeBtn(){
+        iboard_upcom_page.clickSavePinCodeBtn();
+    }
 }

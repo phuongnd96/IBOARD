@@ -12,10 +12,15 @@ public class Iboard_upcom_locators {
     public static final String NOTIFICATION = ".notification-container >span";
     public static final String ADDED_CATEGORY_ON_LIST = "//div[@class='text-watchlist']";
     public static final String ADDED_CATEGORY_AFTER_CLICK = "//a[@class='btn-exchange btn-exchange-active']";
-//    public static final String PRICE_CELLS="#BID>td.priceCell";
     public static final String PRICE_CELLS="td.priceCell";
     public static final String INPUT_USERNAME="input[name='username']";
     public static final String INPUT_PASSWORD="input[name='password']";
     public static final String LOGIN_BTN=".login-btn";
     public static final String LATER_BTN="//button[contains(text(),'sau')]";
+    public static final String QUANTITY_INP="//*[@id=\"input-quantity\"]";
+    public static final String PIN_CODE_INP="//input[@name='pin']";
+    public static final String BUY_BTN="#btn-order-buy";
+    public static final String CONFIRM_BTN="//button[@class='action-button buy left right btn-error btn btn-primary']";
+    public static final String PRICE_VALUE_BORDER_INP="#input-price";
+    public static final String SAVE_PIN_CODE_BTN="//div[@class='column']//input[@class='form-check-input']";
 }

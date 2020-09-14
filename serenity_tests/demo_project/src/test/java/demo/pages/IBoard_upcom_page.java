@@ -3,8 +3,10 @@ package demo.pages;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import net.serenitybdd.core.environment.EnvironmentSpecificConfiguration;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
+import net.thucydides.core.util.EnvironmentVariables;
 import org.openqa.selenium.*;
 
 import static demo.locators.Iboard_upcom_locators.*;
@@ -14,7 +16,14 @@ import static org.hamcrest.Matchers.hasItem;
 
 
 @DefaultUrl("https://iboard.ssi.com.vn/bang-gia/vn30")
+//@DefaultUrl("page:home.page")
 public class IBoard_upcom_page extends PageObject {
+    //    Environment specified variables
+//    private EnvironmentVariables environmentVariables;
+//    String account = EnvironmentSpecificConfiguration.from(environmentVariables).getProperty("account");
+//    String password = EnvironmentSpecificConfiguration.from(environmentVariables).getProperty("password");
+//    String pinCode = EnvironmentSpecificConfiguration.from(environmentVariables).getProperty("pinCode");
+
     //    Actions
     public void hoverOnCategoryAndInputCategoryName(String categoryName) {
         waitFor(O_DANH_MUC);
@@ -99,24 +108,32 @@ public class IBoard_upcom_page extends PageObject {
         withAction().moveToElement(element(By.cssSelector(LOGIN_BTN))).click().build().perform();
     }
 
-    public void clickLater(){
+    public void clickLater() {
         withAction().moveToElement(element(By.xpath(LATER_BTN))).click().build().perform();
     }
 
     public void inputQuantity(String quantity) {
-            int quantityInt=Integer.parseInt(quantity);
-            withAction().moveToElement()
+        withAction().moveToElement(element(By.xpath(QUANTITY_INP))).click().sendKeys(quantity).build().perform();
     }
 
     public void inputPinCode(String pinCode) {
+        withAction().moveToElement((element(By.xpath(PIN_CODE_INP)))).click().sendKeys(pinCode).build().perform();
+    }
+
+    public void clickSavePinCodeBtn() {
+        withAction().moveToElement((element(By.xpath(SAVE_PIN_CODE_BTN)))).click().build().perform();
     }
 
     public void clickBuy() {
+        withAction().moveToElement(element(By.xpath(BUY_BTN))).click().build().perform();
     }
 
     public void clickConfirm() {
+        withAction().moveToElement(element(By.xpath(CONFIRM_BTN))).click().build().perform();
     }
 
-    public void shouldOrderedSuccessfully() {
+    public void inputPriceValueBorder(String priceValueBorder) {
+        withAction().moveToElement(element(By.xpath(PRICE_VALUE_BORDER_INP))).click().sendKeys(priceValueBorder).build().perform();
     }
+
 }
