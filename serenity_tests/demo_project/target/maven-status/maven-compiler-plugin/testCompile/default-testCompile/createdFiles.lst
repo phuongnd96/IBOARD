@@ -1,5 +1,9 @@
+demo/XEM_THONG_TIN_BANG_GIA.class
 demo/pages/IBoard_upcom_page.class
 demo/locators/Iboard_upcom_locators.class
+demo/TAO_DANH_MUC.class
+demo/API_CALL.class
+demo/steps/api_call_steps_defs.class
 demo/steps/dat_lenh_steps_defs.class
 demo/steps/dat_lenh/userSteps.class
-demo/RunnerFile.class
+demo/DAT_LENH.class

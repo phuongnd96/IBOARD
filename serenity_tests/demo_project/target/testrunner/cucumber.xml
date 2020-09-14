@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="1.751805">
+<testcase classname="Call some apis" name="GET method" time="1.649709">
+<system-out><![CDATA[Given Call a GET api to "http://192.168.99.139:3003/product" with query strings page="1" and limit="21".passed
+Then status code should be "200"............................................passed
+And number of records should equal to "21"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Call some apis" name="POST method" time="0.102096">
+<system-out><![CDATA[Given Call a POST request to "http://192.168.99.139:3003/payment" with request body name="test" email=""  and phone="" and address="" and products="".passed
+Then status code should be "400"............................................passed
+Then result should tell us "phone is required"..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

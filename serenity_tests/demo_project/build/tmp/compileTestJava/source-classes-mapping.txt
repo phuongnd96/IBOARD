@@ -10,5 +10,7 @@ demo/pages/IBoard_upcom_page.java
  demo.pages.IBoard_upcom_page
 demo/steps/serenity/tạo_danh_mục/userSteps.java
  demo.steps.serenity.tạo_danh_mục.userSteps
-demo/RunnerFile.java
- demo.RunnerFile
+demo/DAT_LENH.java
+ demo.DAT_LENH
+demo/TAO_DANH_MUC.java
+ demo.TAO_DANH_MUC

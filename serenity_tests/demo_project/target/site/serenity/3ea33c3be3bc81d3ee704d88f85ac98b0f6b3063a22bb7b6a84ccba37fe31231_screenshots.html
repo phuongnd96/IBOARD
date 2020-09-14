@@ -137,7 +137,7 @@
             <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-09-2020 11:05</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-09-2020 14:57</span>
     <br style="clear:left"/>
 </div>
 
@@ -169,14 +169,14 @@
                         <td valign="top" align="right">
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="1a0ff5adca406e5fdd9bb614f13adcae023acb52ad84c1c58b505317a32be495.html">Dl01
-                                    (tag)</a>
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e8f1ccd0347bea067535075b27ca17ed502f7eb88c9f2995893cedf98a6f8f89.html">Invocation Target Exception
+                                    (error)</a>
                                 </span>
                             </p>
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="fe940bc8f43fd860d597d3b07172b3a54f56c033b02e9f5c2fe5ad2c3040f0cf.html">Index Out Of Bounds Exception
-                                    (error)</a>
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="1a0ff5adca406e5fdd9bb614f13adcae023acb52ad84c1c58b505317a32be495.html">Dl01
+                                    (tag)</a>
                                 </span>
                             </p>
                         </td>
@@ -212,7 +212,7 @@
         <div class="table">
             <div class="row">
                 <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Index out of bounds exception: Index 8 out of bounds for length 0</span>
+                    <span class="error-message error-message-title">Invocation target exception</span>
                 </div>
                 <div class="col-sm-2">
                     <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
@@ -228,13 +228,20 @@
         <div class="collapse multi-collapse" id="stacktraceModal-overall">
             <div class="card">
                 <div class="card-header">
-                    <h4>java.lang.IndexOutOfBoundsException </h4>
+                    <h4>java.lang.reflect.InvocationTargetException </h4>
                 </div>
                 <div class="card-body">
                     <div>
-                        <pre>demo.pages.IBoard_upcom_page.doubleClickOnTickerSymbol(IBoard_upcom_page.java:90)<br />demo.steps.dat_lenh.userSteps.doubleClickOnTickerSymbol(userSteps.java:15)<br />demo.steps.dat_lenh_steps_defs.doubleClickVàoGíaBấtKìCủaMãChứngKhoá(dat_lenh_steps_defs.java:17)<br />✽.double click vào gía bất kì của mã chứng khoá "BID"(src/test/resources/features/dat_lenh/dat_lenh.feature:8)<br /></pre>
+                        <pre>com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)<br />demo.pages.IBoard_upcom_page.clickLater(IBoard_upcom_page.java:112)<br />demo.steps.dat_lenh.userSteps.clickLater(userSteps.java:34)<br />demo.steps.dat_lenh_steps_defs.clickĐểSau(dat_lenh_steps_defs.java:68)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
                     </div>
 
+                    <h4>
+                        Caused by: java.lang.AssertionError
+                    </h4>
+                    <div>
+                            <pre>null</pre>
+                        <pre>cucumber.runner.EventBus.send(EventBus.java :28)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
                 </div>
             </div>
         </div>
@@ -242,7 +249,7 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource14029902642401837182.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
@@ -250,8 +257,14 @@
                 <img src="8855b965373a25d7cb6e91fc13fdbe3f54d88978ecebce451d701ce7cbaf403f.png" title=" Given Kh&aacute;ch h&agrave;ng truy cập iboard web" width="2880"/>
                 <img src="8855b965373a25d7cb6e91fc13fdbe3f54d88978ecebce451d701ce7cbaf403f.png" title=" Is on i board page" width="2880"/>
                 <img src="8855b965373a25d7cb6e91fc13fdbe3f54d88978ecebce451d701ce7cbaf403f.png" title=" Given Kh&aacute;ch h&agrave;ng truy cập iboard web (completed)" width="2880"/>
-                <img src="8855b965373a25d7cb6e91fc13fdbe3f54d88978ecebce451d701ce7cbaf403f.png" title=" Given double click v&agrave;o g&iacute;a bất k&igrave; của m&atilde; chứng kho&aacute; &quot;BID&quot;" width="2880"/>
-                <img src="5d974360beb2678a1af5642089326a77b01672b028442594e5b4500cd8755517.png" title=" Double click on ticker symbol: BID: <span class='error-color'>ERROR</span>" width="2880"/>
+                <img src="8eaea3e99f53cb7016a4b35a9cefecaefb262bdf5cce8a12976d62d43b8811c2.png" title=" Given double click v&agrave;o g&iacute;a bất k&igrave; của m&atilde; chứng kho&aacute; &quot;BID&quot;" width="2880"/>
+                <img src="8eaea3e99f53cb7016a4b35a9cefecaefb262bdf5cce8a12976d62d43b8811c2.png" title=" Double click on ticker symbol: BID" width="2880"/>
+                <img src="8eaea3e99f53cb7016a4b35a9cefecaefb262bdf5cce8a12976d62d43b8811c2.png" title=" Given double click v&agrave;o g&iacute;a bất k&igrave; của m&atilde; chứng kho&aacute; &quot;BID&quot; (completed)" width="2880"/>
+                <img src="8eaea3e99f53cb7016a4b35a9cefecaefb262bdf5cce8a12976d62d43b8811c2.png" title=" Then người d&ugrave;ng được chuyển hướng đến trang Login" width="2880"/>
+                <img src="77f944da60f35183b47a17c6635be7e5c8411cf5375707c62233050d25043566.png" title=" When nhập t&ecirc;n đăng nhập &quot;004169&quot;" width="2880"/>
+                <img src="ef96c6fad18a2ba412299a5c01c9ee89ce48515bd359138b23c8d54f765853a1.png" title=" And nhập mật khẩu &quot;123456789Aa@&quot;" width="2880"/>
+                <img src="7c0b8fa55e521640ad52da0b79d7654cf0f8497532eafe5c90c8b8cad36379dd.png" title=" And click Đăng nhập" width="2880"/>
+                <img src="7c0b8fa55e521640ad52da0b79d7654cf0f8497532eafe5c90c8b8cad36379dd.png" title=" And click Để sau: <span class='error-color'>ERROR</span>" width="2880"/>
             </div>
         </div>
 

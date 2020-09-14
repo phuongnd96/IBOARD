@@ -1,0 +1,169 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "GET method",
+        "description": "",
+        "id": "call-some-apis;get-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1307617642,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Call a GET api to \"http://192.168.99.139:3003/product\" with query strings page\u003d\"1\" and limit\u003d\"21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.99.139:3003/product",
+                  "offset": 19
+                },
+                {
+                  "val": "1",
+                  "offset": 80
+                },
+                {
+                  "val": "21",
+                  "offset": 94
+                }
+              ],
+              "location": "api_call_steps_defs.callAGETApiToWithQueryStringsPageAndLimit(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23741809,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "status code should be \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 23
+                }
+              ],
+              "location": "api_call_steps_defs.statusCodeShouldBe(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135837777,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "number of records should equal to \"21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21",
+                  "offset": 35
+                }
+              ],
+              "location": "api_call_steps_defs.numberOfRecordsShouldEqualTo(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "POST method",
+        "description": "",
+        "id": "call-some-apis;post-method",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82025741,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Call a POST request to \"http://192.168.99.139:3003/payment\" with request body name\u003d\"test\" email\u003d\"\"  and phone\u003d\"\" and address\u003d\"\" and products\u003d\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.99.139:3003/payment",
+                  "offset": 24
+                },
+                {
+                  "val": "test",
+                  "offset": 84
+                },
+                {
+                  "val": "",
+                  "offset": 97
+                },
+                {
+                  "val": "",
+                  "offset": 111
+                },
+                {
+                  "val": "",
+                  "offset": 126
+                },
+                {
+                  "val": "",
+                  "offset": 142
+                }
+              ],
+              "location": "api_call_steps_defs.callAPOSTRequestToWithRequestBodyNameEmailAndPhoneAndAddressAndProducts(String,String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1556349,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "status code should be \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "400",
+                  "offset": 23
+                }
+              ],
+              "location": "api_call_steps_defs.statusCodeShouldBe(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1677279,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "result should tell us \"phone is required\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "phone is required",
+                  "offset": 23
+                }
+              ],
+              "location": "api_call_steps_defs.resultShouldTellUs(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Call some apis",
+    "description": "",
+    "id": "call-some-apis",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/api_call/api_call.feature",
+    "tags": []
+  }
+]

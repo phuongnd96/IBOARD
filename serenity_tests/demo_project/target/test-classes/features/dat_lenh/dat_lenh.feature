@@ -3,43 +3,46 @@ Feature: Đặt lệnh
   Background: Khách hàng truy cập thành công iboard web
     Given Khách hàng truy cập iboard web
 
-    @DL01
-    Scenario: Đặt lệnh thành công trong trường hợp mode là Normal Order và có Xác nhận
+  @DL01
+  Scenario: Đặt lệnh thành công trong trường hợp mode là Normal Order và có Xác nhận
     Given double click vào gía bất kì của mã chứng khoá "BID"
     Then người dùng được chuyển hướng đến trang Login
-    When nhập tên đăng nhập "username"
-    And nhập mật khẩu "password"
+    When nhập tên đăng nhập "004169"
+    And nhập mật khẩu "123456789Aa@"
     And click Đăng nhập
-  And click Để sau
+    And click Để sau
+    Given double click vào gía bất kì của mã chứng khoá "BID"
     When nhập số lượng "10"
     And nhập mã pin "123456789"
     When click Mua
     And click Xác nhận
     Then đặt lệnh thành công
 
-    @DL02
-      Scenario: Đặt lệnh thành công trong trường hợp mode là Normal Order và không Xác nhận
+  @DL02
+  Scenario: Đặt lệnh thành công trong trường hợp mode là Normal Order và không Xác nhận
     Given double click vào gía bất kì của mã chứng khoá "BID"
-      Then người dùng được chuyển hướng đến trang Login
-      When nhập tên đăng nhập "username"
-    And nhập mật khẩu "password"
+    Then người dùng được chuyển hướng đến trang Login
+    When nhập tên đăng nhập "004169"
+    And nhập mật khẩu "123456789Aa@"
     And click Đăng nhập
     And click Để sau
+    Given double click vào gía bất kì của mã chứng khoá "BID"
     When nhập số lượng "10"
     And nhập mã pin "123456789"
     When click Mua
     Then thông báo đặt lệnh thành công được hiển thị
     And lệnh hiển thị trong danh sách lệnh
 
-    @DL03
-      Scenario: Đặt lệnh thành công trong trường hợp mode là Quick Order và có Xác nhận
+  @DL03
+  Scenario: Đặt lệnh thành công trong trường hợp mode là Quick Order và có Xác nhận
     Given double click vào gía bất kì của mã chứng khoá "BID"
-      Then người dùng được chuyển hướng đến trang Login
-      When nhập tên đăng nhập "username"
-    And nhập mật khẩu "password"
+    Then người dùng được chuyển hướng đến trang Login
+    When nhập tên đăng nhập "004169"
+    And nhập mật khẩu "123456789Aa@"
     And click Đăng nhập
     And click Để sau
-    When nhập biên trượt "abc"
+    Given double click vào gía bất kì của mã chứng khoá "BID"
+    When nhập biên trượt "-0.25"
     And nhập số lượng "10"
     And nhập mã pin "123456789"
     When click Mua
@@ -47,30 +50,32 @@ Feature: Đặt lệnh
     Then thông báo đặt lệnh thành công được hiển thị
     And lệnh hiển thị trong danh sách lệnh
 
-    @DL04
-      Scenario: Đặt lệnh thành công trong trường hợp mode là Quick Order và không Xác nhận
+  @DL04
+  Scenario: Đặt lệnh thành công trong trường hợp mode là Quick Order và không Xác nhận
     Given double click vào gía bất kì của mã chứng khoá "BID"
-      Then người dùng được chuyển hướng đến trang Login
-      When nhập tên đăng nhập "username"
-    And nhập mật khẩu "password"
+    Then người dùng được chuyển hướng đến trang Login
+    When nhập tên đăng nhập "004169"
+    And nhập mật khẩu "123456789Aa@"
     And click Đăng nhập
     And click Để sau
-    When nhập biên trượt "abc"
+    Given double click vào gía bất kì của mã chứng khoá "BID"
+    When nhập biên trượt "-0.25"
     And nhập số lượng "10"
     And nhập mã pin "123456789"
     When click Mua
     Then thông báo đặt lệnh thành công được hiển thị
     And lệnh hiển thị trong danh sách lệnh
 
-    @DL05
-      Scenario: Đặt lệnh thành công trong trường hợp đã lưu PIN với mode là Quick Order và không Xác nhận
+  @DL05
+  Scenario: Đặt lệnh thành công trong trường hợp đã lưu PIN với mode là Quick Order và không Xác nhận
     Given double click vào gía bất kì của mã chứng khoá "BID"
-      Then người dùng được chuyển hướng đến trang Login
-      When nhập tên đăng nhập "username"
-    And nhập mật khẩu "password"
+    Then người dùng được chuyển hướng đến trang Login
+    When nhập tên đăng nhập "004169"
+    And nhập mật khẩu "123456789Aa@"
     And click Đăng nhập
     And click Để sau
-    When nhập biên trượt "abc"
+    Given double click vào gía bất kì của mã chứng khoá "BID"
+    When nhập biên trượt "-0.25"
     And nhập số lượng "10"
     And nhập mã pin "123456789"
     And click Lưu
@@ -78,15 +83,16 @@ Feature: Đặt lệnh
     Then thông báo đặt lệnh thành công được hiển thị
     And lệnh hiển thị trong danh sách lệnh
 
-    @DL06
-      Scenario: Đặt lệnh thành công trong trường hợp đã lưu PIN với mode là Normal Order và không Xác nhận
+  @DL06
+  Scenario: Đặt lệnh thành công trong trường hợp đã lưu PIN với mode là Normal Order và không Xác nhận
     Given double click vào gía bất kì của mã chứng khoá "BID"
-      Then người dùng được chuyển hướng đến trang Login
-      When nhập tên đăng nhập "username"
-    And nhập mật khẩu "password"
+    Then người dùng được chuyển hướng đến trang Login
+    When nhập tên đăng nhập "004169"
+    And nhập mật khẩu "123456789Aa@"
     And click Đăng nhập
     And nhập mã pin "123456789"
     And click Lưu
+    Given double click vào gía bất kì của mã chứng khoá "BID"
     And nhập số lượng "10"
     And click Xác nhận
     When click Mua
