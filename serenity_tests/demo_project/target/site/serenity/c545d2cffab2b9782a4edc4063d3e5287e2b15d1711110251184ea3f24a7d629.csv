@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Đặt lệnh","Đặt lệnh thành công trong trường hợp mode là Normal Order và có Xác nhận","ERROR","2020-09-14T11:05:12.169249+07:00[Asia/Ho_Chi_Minh]","0.0","7.97"
+"Đặt lệnh","Đặt lệnh thành công trong trường hợp mode là Normal Order và không Xác nhận","ERROR","2020-09-14T11:05:20.3779+07:00[Asia/Ho_Chi_Minh]","0.0","5.35"
+"Đặt lệnh","Đặt lệnh thành công trong trường hợp đã lưu PIN với mode là Quick Order và không Xác nhận","ERROR","2020-09-14T11:05:52.426878+07:00[Asia/Ho_Chi_Minh]","0.0","6.61"
+"Đặt lệnh","Đặt lệnh thành công trong trường hợp đã lưu PIN với mode là Normal Order và không Xác nhận","ERROR","2020-09-14T11:05:59.20231+07:00[Asia/Ho_Chi_Minh]","0.0","8.85"

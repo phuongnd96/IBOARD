@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tạo danh mục","Tạo mới danh mục thành công","SUCCESS","2020-09-14T11:04:26.595205+07:00[Asia/Ho_Chi_Minh]","0.0","12.64"
+"Tạo danh mục","Tạo mới danh mục không thành công","SUCCESS","2020-09-14T11:04:39.415735+07:00[Asia/Ho_Chi_Minh]","0.0","7.5"
+"Tạo danh mục","Thêm mã vào danh mục","SUCCESS","2020-09-14T11:04:47.086733+07:00[Asia/Ho_Chi_Minh]","0.0","8.29"
+"Tạo danh mục","Thêm mã vào danh mục không thành công","SUCCESS","2020-09-14T11:04:55.552196+07:00[Asia/Ho_Chi_Minh]","0.0","7.79"
+"Tạo danh mục","Xóa mã trong danh mục","SUCCESS","2020-09-14T11:05:03.513375+07:00[Asia/Ho_Chi_Minh]","0.0","8.49"

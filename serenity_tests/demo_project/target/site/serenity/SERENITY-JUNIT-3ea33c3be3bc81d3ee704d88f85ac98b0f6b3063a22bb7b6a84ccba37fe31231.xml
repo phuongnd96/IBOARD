@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="6" failures="0" name="Đặt lệnh" skipped="0" tests="6" time="54.96" timestamp="2020-09-14 11:05:12"><testcase name="Đặt lệnh thành công trong trường hợp mode là Normal Order và có Xác nhận"><error message="Index 8 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException">Index 8 out of bounds for length 0</error><system-err>Index 8 out of bounds for length 0
+demo.pages.IBoard_upcom_page.doubleClickOnTickerSymbol(IBoard_upcom_page.java:90)
+demo.steps.dat_lenh.userSteps.doubleClickOnTickerSymbol(userSteps.java:15)
+demo.steps.dat_lenh_steps_defs.doubleClickVàoGíaBấtKìCủaMãChứngKhoá(dat_lenh_steps_defs.java:17)
+✽.double click vào gía bất kì của mã chứng khoá "BID"(src/test/resources/features/dat_lenh/dat_lenh.feature:8)
+</system-err></testcase><testcase name="Đặt lệnh thành công trong trường hợp mode là Normal Order và không Xác nhận"><error message="Index 12 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException">Index 12 out of bounds for length 0</error><system-err>Index 12 out of bounds for length 0
+demo.pages.IBoard_upcom_page.doubleClickOnTickerSymbol(IBoard_upcom_page.java:90)
+demo.steps.dat_lenh.userSteps.doubleClickOnTickerSymbol(userSteps.java:15)
+demo.steps.dat_lenh_steps_defs.doubleClickVàoGíaBấtKìCủaMãChứngKhoá(dat_lenh_steps_defs.java:17)
+✽.double click vào gía bất kì của mã chứng khoá "BID"(src/test/resources/features/dat_lenh/dat_lenh.feature:22)
+</system-err></testcase><testcase name="Đặt lệnh thành công trong trường hợp mode là Quick Order và có Xác nhận"><error type="java.lang.reflect.InvocationTargetException"/><system-err>null
+com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+demo.pages.IBoard_upcom_page.clickLater(IBoard_upcom_page.java:112)
+demo.steps.dat_lenh.userSteps.clickLater(userSteps.java:34)
+demo.steps.dat_lenh_steps_defs.clickĐểSau(dat_lenh_steps_defs.java:68)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase><testcase name="Đặt lệnh thành công trong trường hợp mode là Quick Order và không Xác nhận"><error type="java.lang.reflect.InvocationTargetException"/><system-err>null
+com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+demo.pages.IBoard_upcom_page.clickLater(IBoard_upcom_page.java:112)
+demo.steps.dat_lenh.userSteps.clickLater(userSteps.java:34)
+demo.steps.dat_lenh_steps_defs.clickĐểSau(dat_lenh_steps_defs.java:68)
+cucumber.runner.Runner.runPickle(Runner.java:80)
+</system-err></testcase><testcase name="Đặt lệnh thành công trong trường hợp đã lưu PIN với mode là Quick Order và không Xác nhận"><error message="Index 6 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException">Index 6 out of bounds for length 0</error><system-err>Index 6 out of bounds for length 0
+demo.pages.IBoard_upcom_page.doubleClickOnTickerSymbol(IBoard_upcom_page.java:90)
+demo.steps.dat_lenh.userSteps.doubleClickOnTickerSymbol(userSteps.java:15)
+demo.steps.dat_lenh_steps_defs.doubleClickVàoGíaBấtKìCủaMãChứngKhoá(dat_lenh_steps_defs.java:17)
+✽.double click vào gía bất kì của mã chứng khoá "BID"(src/test/resources/features/dat_lenh/dat_lenh.feature:67)
+</system-err></testcase><testcase name="Đặt lệnh thành công trong trường hợp đã lưu PIN với mode là Normal Order và không Xác nhận"><error message="Index 9 out of bounds for length 0" type="java.lang.IndexOutOfBoundsException">Index 9 out of bounds for length 0</error><system-err>Index 9 out of bounds for length 0
+demo.pages.IBoard_upcom_page.doubleClickOnTickerSymbol(IBoard_upcom_page.java:90)
+demo.steps.dat_lenh.userSteps.doubleClickOnTickerSymbol(userSteps.java:15)
+demo.steps.dat_lenh_steps_defs.doubleClickVàoGíaBấtKìCủaMãChứngKhoá(dat_lenh_steps_defs.java:17)
+✽.double click vào gía bất kì của mã chứng khoá "BID"(src/test/resources/features/dat_lenh/dat_lenh.feature:83)
+</system-err></testcase></testsuite>

@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: demo.RunnerFile
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 104.139 s <<< FAILURE! - in demo.RunnerFile
+??t l?nh th?nh c?ng trong tr??ng h?p mode l? Normal Order v? c? X?c nh?n(??t l?nh)  Time elapsed: 8.2 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 8 out of bounds for length 0
+
+??t l?nh th?nh c?ng trong tr??ng h?p mode l? Normal Order v? kh?ng X?c nh?n(??t l?nh)  Time elapsed: 5.52 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 12 out of bounds for length 0
+
+??t l?nh th?nh c?ng trong tr??ng h?p mode l? Quick Order v? c? X?c nh?n(??t l?nh)  Time elapsed: 13.985 s  <<< ERROR!
+org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'sau')]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:60774}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 197bb4ce5eff9ba5a995b370a50b89b2
+*** Element info: {Using=xpath, value=//button[contains(text(),'sau')]}
+
+??t l?nh th?nh c?ng trong tr??ng h?p mode l? Quick Order v? kh?ng X?c nh?n(??t l?nh)  Time elapsed: 12.529 s  <<< ERROR!
+org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(),'sau')]"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Phuongs-Mac.local', ip: 'fe80:0:0:0:4ad:7742:2374:4710%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/gy/cp_tf2_j5wn...}, goog:chromeOptions: {debuggerAddress: localhost:60807}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a6ba8f579c1b7378cf41fe91d184fefc
+*** Element info: {Using=xpath, value=//button[contains(text(),'sau')]}
+
+??t l?nh th?nh c?ng trong tr??ng h?p ?? l?u PIN v?i mode l? Quick Order v? kh?ng X?c nh?n(??t l?nh)  Time elapsed: 6.771 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 6 out of bounds for length 0
+
+??t l?nh th?nh c?ng trong tr??ng h?p ?? l?u PIN v?i mode l? Normal Order v? kh?ng X?c nh?n(??t l?nh)  Time elapsed: 9.003 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 0
+

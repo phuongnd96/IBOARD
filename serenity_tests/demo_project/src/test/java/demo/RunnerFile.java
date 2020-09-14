@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = {
-// "src/test/resources/features/danh_mục/tạo_danh_mục/tạo_danh_mục.feature"
-        "src/test/resources/features/dat_lenh/dat_lenh.feature"
+// "src/test/resources/features/danh_mục/tạo_danh_mục/tạo_danh_mục.feature",
+        "src/test/resources/features/dat_lenh/dat_lenh.feature",
         },
         plugin = {
                 "junit:target/testrunner/cucumber.xml"
